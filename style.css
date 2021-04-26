@@ -181,8 +181,11 @@ body {
     margin: 0 auto;
 }
 
-.resultMessage {
-  line-height: 1.67;
-  text-align: center;
-  color: #35465d;
+#label-container {
+	width: 80%;
+	margin: 0 auto;
+}
+.result-message {
+	font-size: 2rem;
+	color: #ff0000;
 }
