@@ -16,6 +16,8 @@
 		<title>Test Your Dish by A.I.</title>
 		<link rel="stylesheet" href="style.css" />
 		<!-- Go to www.addthis.com/dashboard to customize your tools -->
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
 		<script
 			type="text/javascript"
 			src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-6086300d6136ec5a"
@@ -25,18 +27,17 @@
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light nav-distance">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#">Test Your Dish by A.I.</a>
-				<button
-					class="navbar-toggler"
+				<a class="navbar-brand" href="#">Test Your Dish by Artificial Intelligence Chef</a>
+				<!-- <button
+					<!-- class="navbar-toggler"
 					type="button"
 					data-bs-toggle="collapse"
 					data-bs-target="#navbarNav"
 					aria-controls="navbarNav"
 					aria-expanded="false"
-					aria-label="Toggle navigation"
-				>
-					<span class="navbar-toggler-icon"></span>
-				</button>
+					aria-label="Toggle navigation" -->
+					<!-- <span class="navbar-toggler-icon"></span>
+				</button> --> 
 				<div class="collapse navbar-collapse" id="navbarNav">
 					<ul class="navbar-nav">
 						<li class="nav-item">
@@ -61,7 +62,6 @@
 			<h1 class="title">A.I. CHEF will judge your dish</h1>
 			<h2 class="subtitle">How good your dish is?</h2>
 		</section>
-		
 
 		<script
 			class="jsbin"
@@ -101,11 +101,13 @@
 		</div>
 		<div id="webcam-container"></div>
 		<div id="label-container"></div>
-		<script
+		
+		<!-- <script
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
 			crossorigin="anonymous"
-		></script>
+		></script> -->
+		
 		<script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/@teachablemachine/image@0.8/dist/teachablemachine-image.min.js"></script>
 		<script>
@@ -217,12 +219,11 @@
 						resultMessage = 'Brunch time? Cafe Style dish';
 						break;
 					case 'KidsMeal':
-						resultMessage = 'Did your Kids cook this?';
+						resultMessage = 'Did your Kid cook this?';
 						break;
 					case 'Rubbish':
-						resultMessage = 'That is Rubbish!';
+						resultMessage = 'This is Rubbish! not a food';
 						break;
-
 				}
 				$('.result-message').html(resultMessage);
 				for (let i = 0; i < maxPredictions; i++) {
