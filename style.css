@@ -155,7 +155,8 @@ the background color to olive */
 	line-height: 1.53;
 	text-align: center;
 	color: #35465d;
-	margin: 0 auto;
+	margin: 50px auto;
+	margin-top: 10;
 }
 
 #label-container {
