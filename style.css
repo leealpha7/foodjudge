@@ -5,7 +5,7 @@ body {
 	box-sizing: border-box;
 	color: #35465d;
 	font-size: initial;
-}
+	}
 .file-upload {
 	padding: 15% 3%;
 	margin: 0 auto;
@@ -124,12 +124,14 @@ body {
 .title {
 	line-height: 1.67;
 	text-align: center;
-	color: #35465d;
+	color: #6610f2;
+	-webkit-text-stroke: thick;
 }
 .subtitle {
 	line-height: 1.53;
 	text-align: center;
-	color: #35465d;
+	color: #6c757d;
+	-webkit-text-stroke: thick;
 } /* On screens that are 600px or less, set
 the background color to olive */
 @media screen and (max-width: 600px) {
