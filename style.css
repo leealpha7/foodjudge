@@ -1,7 +1,7 @@
 body {
 	margin: 15px;
 	font-family: 'Jua', sans-serif;
-	background-color: #ffffff;
+	background-color: #FFC1D8;
 	box-sizing: border-box;
 	color: #35465d;
 	font-size: initial;
@@ -125,13 +125,13 @@ body {
 	line-height: 1.67;
 	text-align: center;
 	color: #6610f2;
-	-webkit-text-stroke: thick;
+	-webkit-text-stroke: medium;
 }
 .subtitle {
 	line-height: 1.53;
 	text-align: center;
 	color: #6c757d;
-	-webkit-text-stroke: thick;
+	-webkit-text-stroke: medium;
 } /* On screens that are 600px or less, set
 the background color to olive */
 @media screen and (max-width: 600px) {
