@@ -125,13 +125,13 @@ body {
 	line-height: 1.67;
 	text-align: center;
 	color: #6610f2;
-	-webkit-text-stroke: medium;
+	-webkit-: medium;
 }
 .subtitle {
 	line-height: 1.53;
 	text-align: center;
 	color: #6c757d;
-	-webkit-text-stroke: medium;
+	-webkit-: medium;
 } /* On screens that are 600px or less, set
 the background color to olive */
 @media screen and (max-width: 600px) {
@@ -165,5 +165,10 @@ the background color to olive */
 }
 .result-message {
     font-size: 2rem;
+	color: #FF0000;
+}
+
+.className {
+	font-size: 2rem;
 	color: #FF0000;
 }
