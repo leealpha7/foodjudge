@@ -162,6 +162,8 @@ the background color to olive */
 #label-container {
     width: 80%;
     margin: 0 auto;
+	margin-bottom: 20px;
+	
 }
 .result-message {
     font-size: 2rem;
