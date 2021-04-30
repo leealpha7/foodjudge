@@ -12,6 +12,10 @@ body {
 	border-radius: 10px;
 	border: solid 1.5px #f6f7fa;
 	background-color: #f6f7fa;
+    margin-bottom: 0px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+
 }
 .file-upload-btn {
 	width: 50%;
@@ -68,6 +72,7 @@ body {
 .image-title-wrap {
 	padding: 0 15px 15px 15px;
 	color: #222;
+	height: 55px;
 }
 .drag-text {
 	text-align: center;
@@ -95,6 +100,7 @@ body {
 	outline: none;
 	text-transform: uppercase;
 	font-weight: 700;
+	margin-top: 10px;
 }
 .remove-image:hover {
 	background: #c13b2a;
