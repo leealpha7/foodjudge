@@ -125,7 +125,8 @@ body {
 	border-color: #ffffff;
 }
 .section {
-	margin-top: 60px;
+	margin-top: 0px;
+	background-color: #FD1;
 }
 .title {
 	line-height: 1.67;
@@ -135,6 +136,7 @@ body {
 }
 .subtitle {
 	line-height: 1.53;
+	font-family: fantasy;
 	text-align: center;
 	color: #6c757d;
 	-webkit-: medium;
