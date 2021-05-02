@@ -207,8 +207,15 @@
 						resultMessage = 'Did your Kid cook this?';
 						break;
 					case 'Not Food':
-						resultMessage = 'This may not be food.';
+						resultMessage = 'This may not be food. Thing.';
 						break;
+					case 'Fast food':
+						resultMessage = 'Mcdoanld? KFC? Looks like a junk food.';
+						break;
+					case 'Delivery':
+						resultMessage = 'Uber? Menulog? Cook yourself. Nice try though.';
+						break;
+														
 				}
 				$('.result-message').html(resultMessage);
 				for (let i = 0; i < 3; i++) {
