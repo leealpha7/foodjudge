@@ -181,7 +181,6 @@
 					labelContainer.appendChild(document.createElement('div'));
 				}
 			}
-
 			// run the webcam image through the image model
 			async function predict() {
 				// predict can take in an image, video or canvas html element
@@ -222,7 +221,7 @@
 					const classPrediction =
 						prediction[i].className +
 						' : ' +
-						prediction[i].probability.toFixed(2) * 100 +
+						prediction[i].probability.toFixed(1) * 100 +
 						'%';
 					labelContainer.childNodes[i].innerHTML = classPrediction;
 				}
